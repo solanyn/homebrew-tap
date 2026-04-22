@@ -7,11 +7,11 @@ class Scrib < Formula
   on_macos do
     on_arm do
       url "https://github.com/solanyn/mono/releases/download/scrib/v0.3.0/scrib-darwin-arm64"
-      sha256 "408968a44bf925df21eabe4bc4ed162e2d6a6c79f7474145499fd63af79b7a61"
+      sha256 "cb407956d2b4cd26ee775be14aa441d35dcbcf6f98057a49d2dc447a2e33cee4"
     end
     on_intel do
       url "https://github.com/solanyn/mono/releases/download/scrib/v0.3.0/scrib-darwin-amd64"
-      sha256 "65648f2eab5dac497c606e2da73facebaf38a1bbe526bb5ffd15749ef5db5b8e"
+      sha256 "cfe9299322155bd62e24f1d40a9e73545b28ddd35a956d869eab5d1621e1a217"
     end
   end
 
