@@ -1,17 +1,17 @@
 class Scrib < Formula
   desc "Voice-to-text transcription tool with local and remote modes"
   homepage "https://github.com/solanyn/mono/tree/main/scrib"
-  version "2026.04.600"
+  version "2026.04.601"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solanyn/mono/releases/download/v2026.04.600/scrib-darwin-arm64"
-      sha256 "c9a1d79fbf359e45ffe3bef73bc504fb8f79a063f24790f634fb494202fdde66"
+      url "https://github.com/solanyn/mono/releases/download/v2026.04.601/scrib-darwin-arm64"
+      sha256 "e6129964276a914a0187d60c90aa42919871dd85cdf0ee7135e215f3b684156b"
     end
     on_intel do
-      url "https://github.com/solanyn/mono/releases/download/v2026.04.600/scrib-darwin-amd64"
-      sha256 "562ec8172d90e947b2baba34335f7e6f0982c96514f58a525dca266f5c0bf9fe"
+      url "https://github.com/solanyn/mono/releases/download/v2026.04.601/scrib-darwin-amd64"
+      sha256 "9374e1163216b359ed498c0932244aaf14b1815ff07877caeb6f908afc9cf782"
     end
   end
 
